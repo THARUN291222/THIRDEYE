@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -18,7 +17,7 @@
   --bs-green: #198754;
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
-  --bs-white: #fff;
+  --bs-white:#001818;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-primary: #0d6efdd;
@@ -27,7 +26,7 @@
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
+  --bs-light: #001818;
   --bs-dark: #212529;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -53,7 +52,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #001818;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -11791,14 +11790,14 @@ fieldset:disabled .btn {
   --bg-grey: #f4f4f4;
   --bg-light: #fbfbfb;
   --box-shadow: 0 0.5rem 1rem rgb(12 12 12 / 5%);
-  --banner-layer: rgb(255 255 255 / 90%);
+  --banner-layer: rgb(20 20 20 / 60%);
   --gradient-color: linear-gradient(to left, #11d5ff 0%, #0089cd 100%);
   --gradient-color-banner: linear-gradient(to left, #00c9f5 0%, #00a4f5 100%);
   --layer: rgb(1 121 179 / 75%);
   --subscribe-footer-input: #fff;
 }
 
-[data-theme="dark"] {
+[data-theme="light"] {
   --primary-color: #fbb034;
   --secondary-color: #00a4f5;
   --bg-color: #08171e;
